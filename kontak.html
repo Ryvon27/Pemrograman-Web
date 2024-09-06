@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    li{
+        list-style-type: none;
+    }
+    nav ul{
+        display: flex;
+        justify-content: center;
+        list-style-type: none;
+    }
+
+    nav li{
+        margin-right: 10px;
+    }
+
+    footer{
+        position: fixed;
+        width: 100%;
+        bottom: 0;
+        text-align: center;
+    }
+</style>
+<body>
+    <nav>
+        <ul>
+            <li><a href="./dashbord.html">Home</a></li>
+            <li><a href="./about.html">About</a></li>
+            <li><a href="./kontak.html">kontak</a></li>
+        </ul>
+    </nav>
+    <hr>
+
+
+    <div>
+        <h2>Formulir Kontak: </h2>
+        <label for="nama">Nama: </label>
+        <input type="text" id="nama"><br><br>
+    </div>
+ 
+    <div>
+        <p>Kewarganegaraan : </p>
+        <ul>
+        <li><input type="radio" name="jkel" value="WNI" id="WNI">WNI</li>
+        <li><input type="radio" name="jkel" value="WNA" id="WNA">WNA</li>
+        </ul>
+    </div>
+
+    <div>
+        <p>Layanan : </p>
+        <li><input type="checkbox">Webinar</li>
+        <li><input type="checkbox">Hoting</li>
+        <br>    </div>
+
+
+    <div>
+        <input type="submit" name="tombolsubmit">
+        <input type="reset" name="tombolhapus">
+    </div>
+</body>
+<footer>@Nazhif - 2024</footer>
+</html>
