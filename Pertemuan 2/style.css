@@ -1,0 +1,51 @@
+html{background-color: black;}
+p{color: aliceblue;}
+h1{color: aliceblue;}
+h2{color: aliceblue;}
+nav{color: aliceblue;}
+
+nav ul{
+    justify-content: center;
+    display:flex;
+}
+
+nav a{
+    padding-right: 10px;
+    margin: 10px;
+}
+nav li{
+    list-style-type: none;
+}
+
+.div1{
+    margin-right:100px ;
+}
+
+.div2{
+    margin-right:100px ;
+    clear: left;
+}
+
+.img1{
+    width: 200px;
+    height: 200px;
+    float: left;
+    margin-right: 10px;
+}
+
+.img2{
+    float: left;
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    padding: 10px;
+}
+
+footer{
+    position:flex;
+    width: 100%;
+    bottom: 0;
+    text-align: center;
+    color: aliceblue;
+}
+
